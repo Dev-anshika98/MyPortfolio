@@ -24,7 +24,7 @@ function Projects() {
             <ProjectCard
               imgPath={Gemini}
               isBlog={false}
-              title="Chatify"
+              title="Gemini"
               description="At the forefront of content discovery, I led the development of a Gemini AI replica, harnessing React.js, JavaScript, Vite, and CSS. This groundbreaking project seamlessly integrates with the Google Gemini API, offering tailored recommendations, image recognition, and content creation. Touching the lives of over 330.9 million users, including content creators, consumers, and businesses, it signifies a monumental leap in content discovery technology. As the visionary behind the Gemini clone, I've been instrumental in shaping the landscape of digital content exploration for the future."
               ghLink="https://github.com/Dev-anshika98/Gemini"
               demoLink="https://gemini-ecru-xi.vercel.app/"
@@ -68,7 +68,7 @@ function Projects() {
             <ProjectCard
               imgPath={portfolio}
               isBlog={false}
-              title="Ai For Social Good"
+              title="My-Portfolio"
               description=""
               ghLink=""
              
