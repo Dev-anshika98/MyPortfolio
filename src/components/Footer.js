@@ -8,22 +8,19 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  // let date = new Date();
+  // let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
+        <Col md="5" className="footer-copywright">
           <h3>Made with 🩵 by Anshika</h3>
         </Col>
-        {/* <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col> */}
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
+        <Col md="5" className="footer-body">
+          <ul className="footer-icons d-flex justify-content-end">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/Dev-anshika98"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +30,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://twitter.com/Dev_anshika98"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +40,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/anshika-gupta98"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +50,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/iam_astrid01/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
