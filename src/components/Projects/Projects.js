@@ -7,7 +7,7 @@ import Gemini from "../../Assets/Projects/gemini.png";
 import eduar from "../../Assets/Projects/EduQuestar.png";
 import voyage from "../../Assets/Projects/Voyage.png";
 import portfolio from "../../Assets/Projects/portfolio.png"
-
+import editor from "../../Assets/Projects/editor.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -20,6 +20,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Python Code-Editor"
+              description="This project is a Python Code Editor built using the Tkinter library for the graphical user interface (GUI). It allows users to write, save, open, and run Python scripts within the application. The editor also provides customizable settings for appearance and user input handling."
+              ghLink="https://github.com/Dev-anshika98/Python-CodeEditor"
+              // demoLink="https://gemini-ecru-xi.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Gemini}
