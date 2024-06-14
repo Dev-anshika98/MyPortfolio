@@ -11,11 +11,15 @@ import {
   DiJava,
   DiCss3,
   DiHtml5,
+  DiPostgresql,
+  DiOpensource,
+  
  
 } from "react-icons/di";
 import {
   // SiRedis,
   SiFirebase,
+  SiPostman,
   // SiNextdotjs,
   // SiSolidity,
   // SiPostgresql,
@@ -58,6 +62,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiOpensource/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman/>
       </Col>
       
       
